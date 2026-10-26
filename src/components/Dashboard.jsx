@@ -37,12 +37,9 @@ function Dashboard({ transactions }) {
 
   return (
     <div className="space-y-6 animate-fade-in">
-      {/* Header with Description */}
+      {/* Header */}
       <div className="text-center lg:text-left">
-        <h1 className="text-2xl lg:text-3xl font-bold mb-1 text-brand-dark">Financial Overview</h1>
-        <p className="text-sm text-brand-navy text-opacity-70">
-          Real-time insights into your financial performance
-        </p>
+        <h1 className="text-2xl lg:text-3xl font-bold text-brand-dark">Financial Overview</h1>
       </div>
 
       {/* Stats Cards - Responsive Grid with compact sizing */}

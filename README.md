@@ -1,17 +1,17 @@
-# Finora AI - Accounting Assistant 🤖💰
+# Finora AI - Accounting Assistant
 
 A modern accounting system with an intelligent AI assistant powered by Groq AI that can analyze your financial data and answer questions in natural language.
 
-## Features ✨
+## Features
 
-- 📊 **Interactive Dashboard**: View total income, expenses, balance, and transaction count
-- 📈 **Visual Analytics**: Multiple chart types (line, bar, pie, area charts)
-- 💬 **AI Chat Assistant**: Natural language queries with concise, clear responses
-- 🔍 **Smart Analysis**: AI reads and analyzes your accounting data
-- 📱 **Responsive Design**: Professional fintech UI on all devices
-- 🎨 **Custom Branding**: Finora AI brand colors and logo
+- **Interactive Dashboard**: View total income, expenses, balance, and transaction count
+- **Visual Analytics**: Multiple chart types (line, bar, pie, area charts)
+- **AI Chat Assistant**: Natural language queries with concise, clear responses
+- **Smart Analysis**: AI reads and analyzes your accounting data
+- **Responsive Design**: Professional fintech UI on all devices
+- **Custom Branding**: Finora AI brand colors and logo
 
-## Tech Stack 🛠️
+## Tech Stack
 
 - **Frontend**: React 18 + Vite + Tailwind CSS 3
 - **Backend**: Supabase (PostgreSQL)
@@ -19,7 +19,7 @@ A modern accounting system with an intelligent AI assistant powered by Groq AI t
 - **Charts**: Recharts
 - **Icons**: Lucide React
 
-## Setup Instructions 🚀
+## Setup Instructions
 
 ### 1. Install Dependencies
 
@@ -68,7 +68,7 @@ npm run dev
 
 The app will open at \`http://localhost:3000\`
 
-## AI Assistant Examples 💬
+## AI Assistant Examples
 
 ### Basic Queries
 - "What are my total expenses?"
@@ -89,11 +89,11 @@ The app will open at \`http://localhost:3000\`
 - "Which expense should I reduce?"
 
 ### Natural Language (with typos)
-- "whay is my totl expnses?" ✓ Works!
-- "shw me balanc" ✓ Understands!
-- "wat categry has highst expnse?" ✓ Smart!
+- "whay is my totl expnses?" - Works!
+- "shw me balanc" - Understands!
+- "wat categry has highst expnse?" - Smart!
 
-## Project Structure 📁
+## Project Structure
 
 \`\`\`
 ├── src/
@@ -119,7 +119,7 @@ The app will open at \`http://localhost:3000\`
 └── README.md
 \`\`\`
 
-## Security Notes 🔒
+## Security Notes
 
 - Never commit your \`.env\` file
 - API keys are stored as environment variables
@@ -127,7 +127,7 @@ The app will open at \`http://localhost:3000\`
 - The AI assistant only has read access to your data
 - **Compressed archive excludes `.env`** - Your API keys are safe
 
-## Key Implementation Details 🧠
+## Key Implementation Details
 
 ### Unified Data Source
 - Dashboard and AI use the **same calculation function** (`processTransactions()`)
@@ -145,7 +145,7 @@ The app will open at \`http://localhost:3000\`
 - **Monthly aggregation**: Calculates trends for charts
 - **Real-time metrics**: Live updates from Supabase
 
-## Presentation Date 📅
+## Presentation Date
 
 **Deadline**: October 27, 2026  
 **Presentation**: 10:30 AM (5-10 minutes)

@@ -83,7 +83,7 @@ function ChatbotPopup({ transactions }) {
                 <div className="flex items-center gap-3">
                   <div>
                     <h3 className="text-lg font-bold tracking-tight text-white">
-                      Finora AI
+                      Finora AI Assistant
                     </h3>
                     <p className="text-xs text-brand-mint font-medium">
                       {loading ? 'Analyzing...' : 'Online'}

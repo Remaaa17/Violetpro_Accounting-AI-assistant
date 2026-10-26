@@ -192,7 +192,7 @@ function App() {
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="w-2 h-2 rounded-full bg-brand-mint"></span>
-                  <span className="text-brand-navy text-opacity-80">AI: Google Gemini API</span>
+                  <span className="text-brand-navy text-opacity-80">AI: Groq (qwen/qwen3.8-27b)</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm">
                   <span className="w-2 h-2 rounded-full bg-brand-primary"></span>
